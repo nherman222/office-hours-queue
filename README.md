@@ -1,6 +1,6 @@
 # office-hours-queue
 
-## in progress
+## IN PROGRESS!
 
 ### Current functionality:
 
