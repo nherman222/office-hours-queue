@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COSC050</title>
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <header id="header">
+              <h1>
+                <a href="index.html" id="logo">COSC050 Office Hours</a>
+              </h1>
+              <nav id="nav">
+                <a href="index-ta.html">I'm a TA</a>
+              </nav>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- queue -->
+    <table id="display">
+      <tr>
+        <th>Number</th>
+        <th>Name</th>
+        <th>Remove</th>
+      </tr>
+    </table>
+
+    <!-- join panel -->
+    <div id="container">
+      <h2>Join Office Hours</h2>
+      <div class="input">
+        Name: <input id="name" type="text" placeholder="John Smith" />
+      </div>
+      <div class="input">
+        Code:
+        <input id="code" type="text" placeholder="Please ask TA for code" />
+      </div>
+      <button
+        type="button"
+        id="entry"
+        class="btn btn-primary"
+        onclick="queueUpdate(); updateQueueNums();"
+      >
+        Join!
+      </button>
+    </div>
+
+    <script src="/js/script-oh.js"></script>
+  </body>
+</html>
