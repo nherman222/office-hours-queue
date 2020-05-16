@@ -8,7 +8,7 @@ to try to keep track of who came in when. I hope to create a queue website for o
 The goal is to have each student who enters office hours log-in with their student ID, choose which course they are in, enter the code that the TA writes on the whiteboard
 or provides over email/zoom chat (if remote learning), and join the queue. The student can remove only themselves from the queue at any time. If a TA log-in is recognized, they will be directed to the TA page, where they create the code to begin office hours, and can remove any student from the queue.
 
-Currently, the site does not have all of the mentioned functionality. I plan to continue to implement functionality as I learn more web development.
+Currently, the site does not have all of the mentioned functionality. I plan to continue to implement functionality as I learn more web development, as I hope to take the web development course next term.
 
 ### Current functionality:
 
