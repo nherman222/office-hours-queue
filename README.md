@@ -3,9 +3,11 @@
 For many of the larger CS classes, office hours are filled with students seeking help with labs.  
 With no system to remember who comes in at what time, it is easy for students who have just entered office hours to
 get help before the students who have been waiting for an hour. It can also be overwhelming for the TA's running office hours
-to try to keep track of who came in when. I hope to create a queue website for office hours to help avoid these problems.  
+to try to keep track of who came in when. I hope to create a queue website for office hours to help avoid these problems.
+
 The goal is to have each student who enters office hours log-in with their student ID, choose which course they are in, enter the code that the TA writes on the whiteboard
-or provides over email/zoom chat (if remote learning), and join the queue. The student can remove only themselves from the queue at any time. The TA will log-in separately and create the code to begin office hours, and can remove any student from the queue.  
+or provides over email/zoom chat (if remote learning), and join the queue. The student can remove only themselves from the queue at any time. The TA will log-in separately and create the code to begin office hours, and can remove any student from the queue.
+
 Currently, the site does not have all of the mentioned functionality. I plan to continue to implement functionality as I learn more web development.
 
 ### Current functionality:
