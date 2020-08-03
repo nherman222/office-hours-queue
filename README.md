@@ -24,3 +24,6 @@ Currently, the site does not have all of the mentioned functionality. I plan to 
 - Update queue content through ajax across computers and browsers
 - Remove button for row only appears if you are the student in the row
 - Queue table shown on TA page, TA can remove any student
+
+
+![officehours](office-hours-queue.png)
